@@ -33,10 +33,12 @@ function generatePasswordInfo() {
     var upperCase = window.confirm("Click OK if to include UPPER CASE characters in your password or click Cancel if you want to exclude them.");
     var numbers = window.confirm("Click OK if to include NUMBERS in your password or click Cancel if you want to exclude them.");
     var specialCharacters = window.confirm("Click OK if to include SPECIAL characters in your password or click Cancel if you want to exclude them.");
+    var saveYourPassword = window.confirm("IMPORTANT!!!!  Make sure to copy this password into your password keeper solution!  If you don't yet have one, you may want to research one here:  https://www.wikiwand.com/en/List_of_password_managers")
 
-    if (!lowerCase && !upperCase && !numbers && !specialCharacters) {
+    if (!lowerCase && !upperCase && !numbers && !specialCharacters && !saveYourPassword) {
       alert("I'm sorry, a minimum of one character type is required.  Please try again.");
-      return;
+    
+      return;  
   }
 
     var passwordInfo = {
