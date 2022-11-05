@@ -27,11 +27,12 @@ This application will provide the end user with a password generator solution, a
 ![alt text](./Assets/Pictures/PW%20Generator%20Preview.png)
 
 ## Site Features
-- Static header so that all links to in-site sections are always available
-- Animated gif for marquee, to add a bit of visual flare to the site
-- Gradient background coloring for the entire site
-- Added "glow" to the header and footer so that the feel of the site is more cohesive
-- Site displays well across all device types, regardless of display width
+- Allows end user to choose length of their new password
+- Built-in restrictions for length so that the user will be required to re-enter their lenght if less than 8 or more than 128
+- Built-in validation of the user entering an integer and not a character other than numbers
+- Allows end user to select one of 4 different types of characters (Numbers, Upper-Case Letters, Lower-Case Letters and Special Characters)
+- Built-in validation, requiring the end user to select at least one type of character before continuing
+- Presents the resulting password to the end user, within the area of the application for easy highlight-and-select, allowing for eash copy/paste actions.
 
 ## Acceptance Criteria for this Challenge
 
