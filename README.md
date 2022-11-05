@@ -6,12 +6,10 @@ This application will provide the end user with a password generator solution, a
 
 ## Table of Contents
 
-- [Website Preview](#website-preview)
+- [Website Preview](#application-preview)
 - [Site Features](#site-features)
-- [Acceptance Criteria](#acceptance-criteria-for-this-application)
+- [Acceptance Criteria](#acceptance-criteria-for-this-challenge)
 - [Credits](#credits)
-    - [CSS Information](#css-information)
-    - [CSSBox Information](#cssbox-information)
     - [Git Cheat Sheet](#git-cheat-sheet-pdf)
     - [Git Flow Process](#git-flow-process)
     - [HTML Reference](#html-reference)
@@ -20,7 +18,7 @@ This application will provide the end user with a password generator solution, a
 - [License](#license)
 - [How To Contribute](#how-to-contribute)
 
-# Application Details
+# Application Preview
 
 [Password Generator](https://estee3.github.io/03-Challenge/)
 
@@ -54,12 +52,6 @@ This application will provide the end user with a password generator solution, a
 
 # Credits
 NOTE: Click preview pictures to navigate to the referenced site
-
-## CSS Information
-[![name](assets/images/CSS.png)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-
-## CSSBox Information
-[![name](assets/images/CSSBox.png)](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
 
 ## Git Cheat Sheet (pdf)
 [![name](assets/images/GitCheatSheet.png)](https://education.github.com/git-cheat-sheet-education.pdf)
