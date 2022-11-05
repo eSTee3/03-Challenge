@@ -24,7 +24,7 @@ This application will provide the end user with a password generator solution, a
 
 [Password Generator](https://estee3.github.io/03-Challenge/)
 
-![alt text](assets/images/Portfolio%20Site.png)
+![alt text](./Assets/Pictures/PW%20Generator%20Preview.png)
 
 ## Site Features
 - Static header so that all links to in-site sections are always available
