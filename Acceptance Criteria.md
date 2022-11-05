@@ -32,7 +32,7 @@ This application will provide the end user with a password generator solution, a
 - Built-in validation of the user entering an integer and not a character other than numbers
 - Allows end user to select one of 4 different types of characters (Numbers, Upper-Case Letters, Lower-Case Letters and Special Characters)
 - Built-in validation, requiring the end user to select at least one type of character before continuing
-- Alerts the end user to ensure they save the new password within their password keeper of choice.
+- Alerts the end user to ensure they save the new password within their password keeper of choice.  It even presents a url to do their own reseach in finding one, if they don't already have one.
 - Presents the resulting password to the end user, within the area of the application for easy highlight-and-select, allowing for eash copy/paste actions.
 
 ## Acceptance Criteria for this Challenge
