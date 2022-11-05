@@ -1,20 +1,39 @@
-# 03 JavaScript: Password Generator
+# 03 Challenge: Password Generator
 
-## Your Task
+## Description
 
-This week's Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+This application will provide the end user with a password generator solution, allowing them to choose the length and character types to include within the resulting password.
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
+## Table of Contents
 
-## User Story
+- [Website Preview](#website-preview)
+- [Site Features](#site-features)
+- [Acceptance Criteria](#acceptance-criteria-for-this-application)
+- [Credits](#credits)
+    - [CSS Information](#css-information)
+    - [CSSBox Information](#cssbox-information)
+    - [Git Cheat Sheet](#git-cheat-sheet-pdf)
+    - [Git Flow Process](#git-flow-process)
+    - [HTML Reference](#html-reference)
+    - [Java Basics](#java-basics)
+    - [Java Data Types](#java-data-types)
+- [License](#license)
+- [How To Contribute](#how-to-contribute)
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+# Application Details
 
-## Acceptance Criteria
+[Password Generator](https://estee3.github.io/03-Challenge/)
+
+![alt text](assets/images/Portfolio%20Site.png)
+
+## Site Features
+- Static header so that all links to in-site sections are always available
+- Animated gif for marquee, to add a bit of visual flare to the site
+- Gradient background coloring for the entire site
+- Added "glow" to the header and footer so that the feel of the site is more cohesive
+- Site displays well across all device types, regardless of display width
+
+## Acceptance Criteria for this Challenge
 
 ```
 GIVEN I need a new, secure password
