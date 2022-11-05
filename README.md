@@ -1,8 +1,8 @@
-# 03-Challenge: Password Generator
+# 03 Challenge: Password Generator
 
 ## Description
 
-This application contains my current portfolio of past and present applications as they may be accessed by potential employers.
+This application will provide the end user with a password generator solution, allowing them to choose the length and character types to include within the resulting password.
 
 ## Table of Contents
 
@@ -22,37 +22,41 @@ This application contains my current portfolio of past and present applications 
 
 # Application Details
 
-[Mark Battaglia c0d1ng Portfolio](https://estee3.github.io/03-Challenge/)
+[Password Generator](https://estee3.github.io/03-Challenge/)
 
-![alt text](assets/images/Portfolio%20Site.png)
+![alt text](./Assets/Pictures/PW%20Generator%20Preview.png)
 
 ## Site Features
-- Static header so that all links to in-site sections are always available
-- Animated gif for marquee, to add a bit of visual flare to the site
-- Gradient background coloring for the entire site
-- Added "glow" to the header and footer so that the feel of the site is more cohesive
-- Site displays well across all device types, regardless of display width
+- Allows end user to choose length of their new password
+- Built-in restrictions for length so that the user will be required to re-enter their lenght if less than 8 or more than 128
+- Built-in validation of the user entering an integer and not a character other than numbers
+- Allows end user to select one of 4 different types of characters (Numbers, Upper-Case Letters, Lower-Case Letters and Special Characters)
+- Built-in validation, requiring the end user to select at least one type of character before continuing
+- Alerts the end user to ensure they save the new password within their password keeper of choice.  It even presents a url to do their own reseach in finding one, if they don't already have one.
+- Presents the resulting password to the end user, within the area of the application for easy highlight-and-select, allowing for eash copy/paste actions.
 
-## User Story
-***AS AN employer:***
-- ***I WANT*** to view a potential employee's deployed portfolio of work samples
-    - ***SO THAT*** I can review samples of their work and assess whether they're a good candidate for an open position
+## Acceptance Criteria for this Challenge
+***GIVEN I need a new, secure password:***
+- ***WHEN*** I click the button to generate a password
+    - ***THEN*** I am presented with a series of prompts for password criteria
+- ***WHEN*** prompted for password criteria
+    - ***THEN*** I select which criteria to include in the password
+- ***WHEN*** prompted for the length of the password
+    - ***THEN*** I choose a length of at least 8 characters and no more than 128 characters
+- ***WHEN*** asked for character types to include in the password
+    - ***THEN*** I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
+- ***WHEN*** I answer each prompt
+    - ***THEN*** my input should be validated and at least one character type should be selected
+- ***WHEN*** all prompts are answered
+    - ***THEN*** a password is generated that matches the selected criteria
+- ***WHEN*** the password is generated
+    - ***THEN*** the password is either displayed in an alert or written to the page
 
-## Acceptance Criteria for this Application
-***GIVEN I need to sample a potential employee's previous work:***
+## Mock-Up
 
-- ***WHEN*** I load their portfolio
-    - ***THEN*** I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-- ***WHEN*** I click one of the links in the navigation
-    - ***THEN*** the UI scrolls to the corresponding section
-- ***WHEN*** I click on the link to the section about their work
-    - ***THEN*** the UI scrolls to a section with titled images of the developer's applications
-- ***WHEN*** I am presented with the developer's first application
-    - ***THEN*** that application's image should be larger in size than the others
-- ***WHEN*** I click on the images of the applications
-    - ***THEN*** I am taken to that deployed application
-- ***WHEN*** I resize the page or view the site on various screens and devices
-    - ***THEN*** I am presented with a responsive layout that adapts to my viewport
+The following image shows the web application's appearance and functionality:
+
+![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
 
 # Credits
 NOTE: Click preview pictures to navigate to the referenced site
