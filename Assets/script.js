@@ -12,17 +12,17 @@ function generatePasswordInfo() {
     
   // Presents the user with a text-entry field, asking for the desired password length
     var getPasswordLength = parseInt(prompt("Please tell me how many characters you'd like your password to be.  NOTE: Your password must be at least 8 characters in length and no more than 128"));
-    // Validates the number entered is not less than 8
+    // Validates the number entered is not less than 8 and if it is, will present the end user with the number they entered, asking them to try again.
     if(getPasswordLength < 8 ) {
       alert("A minimum of 8 characters is required and you've entered "+getPasswordLength+" characters.  Please try again");
       generatePassword();
     }
-    // Validates the number entered is not more than 128
+    // Validates the number entered is not more than 128 and if it is, will present the end user with the number they entered, asking them to try again.
     if(getPasswordLength > 128 ) {
       alert("A maximum of 128 characters is allowed and you've entered "+getPasswordLength+" characters.  Please try again");
       generatePassword();
     }
-    // Validates the entry is an integer 
+    // Validates the entry is an integer and if it isn't, will present the end user with the text they entered, asking them to try again. 
     if (isNaN(getPasswordLength)) {
       alert("I'm sorry, you've entered "+getPasswordLength+", instead of a number from 8 to 128.  Please try again.");
       generatePassword();
