@@ -54,13 +54,19 @@ This application will provide the end user with a password generator solution, a
 NOTE: Click preview pictures to navigate to the referenced site
 
 ## Git Cheat Sheet (pdf)
-[![name](assets/images/GitCheatSheet.png)](https://education.github.com/git-cheat-sheet-education.pdf)
+[![name](./Assets/Pictures/GitCheatSheet.png)](https://education.github.com/git-cheat-sheet-education.pdf)
 
 ## Git Flow Process
-[![name](assets/images/GitFlow.png)](https://docs.github.com/en/get-started/quickstart/github-flow)
+[![name](./Assets/Pictures/GitFlow.png)](https://docs.github.com/en/get-started/quickstart/github-flow)
 
 ## HTML Reference
-[![name](assets/images/HTMLReference.png)](https://www.w3schools.com/tags/tag_meta.asp)
+[![name](./Assets/Pictures/HTMLReference.png)](https://www.w3schools.com/tags/tag_meta.asp)
+
+## Java Basics
+[![name](./Assets/Pictures/JavaBasics.png)](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+
+## Java Data Types
+[![name](./Assets/Pictures/JavaDataTypes.png)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 
 # License
 
