@@ -24,7 +24,7 @@ function generatePasswordInfo() {
     }
     // Validates the entry is an integer and if it isn't, will present the end user with the text they entered, asking them to try again. 
     if (isNaN(getPasswordLength)) {
-      alert("I'm sorry, you've entered "+getPasswordLength+", instead of a number from 8 to 128.  Please try again.");
+      alert("I'm sorry, your entry is not a number from 8 to 128.  Please try again.");
       generatePassword();
   }
 
