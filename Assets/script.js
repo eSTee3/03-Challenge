@@ -14,17 +14,17 @@ function generatePasswordInfo() {
     var getPasswordLength = parseInt(prompt("Please tell me how many characters you'd like your password to be.  NOTE: Your password must be at least 8 characters in length and no more than 128"));
     // Validates the number entered is not less than 8
     if(getPasswordLength < 8 ) {
-      alert("A minimum of 8 characters is required, please try again...");
+      alert("A minimum of 8 characters is required and you've entered "+getPasswordLength+" characters.  Please try again");
       generatePassword();
     }
     // Validates the number entered is not more than 128
     if(getPasswordLength > 128 ) {
-      alert("A maximum of 128 characters is allowed, please try again");
+      alert("A maximum of 128 characters is allowed and you've entered "+getPasswordLength+" characters.  Please try again");
       generatePassword();
     }
     // Validates the entry is an integer 
     if (isNaN(getPasswordLength)) {
-      alert("I'm sorry, you did not enter a number from 8 to 128.  Please try again.");
+      alert("I'm sorry, you've entered "+getPasswordLength+", instead of a number from 8 to 128.  Please try again.");
       generatePassword();
   }
 
@@ -35,9 +35,9 @@ function generatePasswordInfo() {
     var specialCharacters = window.confirm("Click OK if to include SPECIAL characters in your password or click Cancel if you want to exclude them.");
     var saveYourPassword = window.confirm("IMPORTANT!!!!  Make sure to copy this password into your password keeper solution!  If you don't yet have one, you may want to research one here:  https://www.wikiwand.com/en/List_of_password_managers")
 
+    // If end user selects the "Cancel" button for every character type, this will force the usuer back to the beginning of the character type prompts via the "return" action.
     if (!lowerCase && !upperCase && !numbers && !specialCharacters && !saveYourPassword) {
       alert("I'm sorry, a minimum of one character type is required.  Please try again.");
-    
       return;  
   }
 
@@ -85,11 +85,11 @@ function generatePassword() {
   for (var i = 0; i < passwordIncludes.passwordLength; i++) {
     var c = getRandomChar(availableCharacters);
 
-    // Adds caracters to password and returns their total count
+    // Adds caracters to password and returns the array's total count
     createdPassword.push(c);
   }
 
-  // Combines all characters via join with no separator (similar to a google sheet formula!)
+  // Combines all characters via join (with no separator)
   return createdPassword.join("");
 }
 
