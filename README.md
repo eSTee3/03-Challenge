@@ -20,7 +20,7 @@ This application will provide the end user with a password generator solution, a
 
 # Application Preview
 
-## [Password Generator](https://estee3.github.io/03-Challenge/)
+## [Password Generator](https://estee3.github.io/Password-Generator/)
 
 ![alt text](./Assets/Pictures/PW%20Generator%20Preview.png)
 
